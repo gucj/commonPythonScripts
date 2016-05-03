@@ -9,8 +9,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 mail_host = "smtp.sina.cn"  #设置服务器
-mail_user = "guxiaocai"    #用户名
-mail_pass = "gucj123456"   #口令
+mail_user = "username"    #用户名
+mail_pass = "password"   #口令
 mail_postfix = "sina.cn"  #发件箱的后缀
 
 
