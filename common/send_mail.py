@@ -66,8 +66,8 @@ if __name__ == '__main__':
     html_content = "<html><body>Hello,test send mail!<img src='cid:%s'  alt='%s'>%s</img></body></html>" % (
     file_name, file_name, file_name)
     text_content = "Hello,test send mail! text content"
-    file1 = "/Users/gucuijuan/Desktop/96_96.jpg"
-    file2 = "/Users/gucuijuan/Desktop/cardNum.txt"
+    file1 = "/Users/XXXX/Desktop/96_96.jpg"
+    file2 = "/Users/XXXX/Desktop/cardNum.txt"
     attach_files = (file1, file2)
     print send(["guxiaocai@sina.cn", ], "TestSendMail", html_content=html_content, attachments=attach_files)
 
